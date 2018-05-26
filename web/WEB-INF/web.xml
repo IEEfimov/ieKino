@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>IndexController</servlet-name>
+        <servlet-class>IndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexController</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AboutController</servlet-name>
+        <servlet-class>AboutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AboutController</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BuyController</servlet-name>
+        <servlet-class>BuyController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyController</servlet-name>
+        <url-pattern>/buy</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BuyTicketController</servlet-name>
+        <servlet-class>BuyTicketController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyTicketController</servlet-name>
+        <url-pattern>/buyTicket</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ShowTicketsController</servlet-name>
+        <servlet-class>ShowTicketsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowTicketsController</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FindTicktController</servlet-name>
+        <servlet-class>FindTicktController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindTicktController</servlet-name>
+        <url-pattern>/find</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ReviewController</servlet-name>
+        <servlet-class>ReviewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReviewController</servlet-name>
+        <url-pattern>/reviews</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

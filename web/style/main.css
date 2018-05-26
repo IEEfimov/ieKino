@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+}
+.PreHeader{
+    background: #222222;
+    width: 100%;
+    display: inline-flex;
+}
+.header{
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    padding: 10px;
+    display: inline-flex;
+
+}
+.logoHeader{
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-right: 95px;
+    margin-left: 40px;
+}
+.menu{
+    display: inline-flex;
+}
+.menuItem{
+    display: inline-flex;
+    text-align: center;
+    border: #444444 2px solid;
+    color: white;
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    transition-duration: 200ms;
+    transition-property: background-color, border-color, border-width;
+}
+.menuItem:hover{
+    background-color: #444444;
+    border-bottom-color: red;
+    border-bottom-width: 5px;
+}
+.ItemText{
+    margin: auto auto;
+}
+#siteName{
+    color: white;
+    font-size: 40px;
+}
+#siteDescription{
+    color: lightgray;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#siteLogo{
+    display: inline-block;
+}
+.MainPage{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 600px;
+    background-color: white;
+    padding: 50px;
+}
+.filmParamName{
+    margin-right: 30px;
+    text-align: end;
+    display: inline-flex;
+    font-weight: bold;
+}
+.filmParam{
+    margin-left: 5px;
+    font-size: 14pt;
+}
+#filmName{
+    font-size: 20pt;
+
+    font-weight: bold;
+    margin-left: 60px;
+
+}
+
+.filmName{
+    font-size: 20pt;
+
+    font-weight: bold;
+    margin-left: 60px;
+
+}
+.filmCard{
+    width: 800px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+.filmImage{
+    width: 250px;
+    height: 400px;
+    margin-right: 20px;
+}
+.buyTicket{
+    width: 100px;
+    border: darkred 1px solid;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition-duration: 200ms;
+    transition-property: background-color;
+    font-weight: bold;
+    position: relative;
+    left: 390px;
+    cursor: pointer;
+}
+.buyTicket:hover{
+    background-color: darkred;
+    color: white;
+}
+
+.placeLine{
+    display: inline-flex;
+}
+
+.selectPlaceF{
+    width: 20px;
+    border: darkred 1px solid;
+    padding: 5px;
+    margin: 10px;
+    transition-duration: 200ms;
+    transition-property: background-color;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selectPlaceF:hover{
+    background-color: darkred;
+    color: white;
+}
+
+.selectPlaceN{
+    width: 20px;
+    border: #111111 1px solid;
+    padding: 5px;
+    margin: 10px;
+    background-color: #444444;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+}
+
+
+#emailInput{
+    font-size: 18pt;
+}
+
+.review{
+    width: 700px;
+    min-height: 100px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.reviewTitle{
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 5px;
+}
+.reviewText{
+    font-size: 13pt;
+    margin-left: 30px;
+}
+#rewiewText{
+    width: 500px;
+    height: 300px;
+    font-size: 13pt;
+}
+.footer{
+    padding: 75px;
+    text-align: center;
+    color: white;
+}
+
+.notEmail{
+    box-shadow: 0 0 10px rgba(255,0,0,0.5);
+}
+
+.allTickets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.myTicket{
+    width: 170px;
+    min-height: 300px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    margin: 30px;
+}
+
+.ticketImg{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+
+}
+
+.ticketName{
+    width: 170px;
+    text-align: center;
+    font-size: 13pt;
+}
